@@ -16,7 +16,7 @@ Boilerplate code from Oregon State University, CS 344 - Winter 2018 and Computer
 ### Running ftserver.exe
 1. Run `make` to compile `ftserver.exe` from `ftserver.c`.
 2. Run `ftserver.exe <server_port>` to start the file transfer server on the specified server port number. For example, `ftserver.exe 12345`.
-  * In the unlikely event that the port is in use, use a different port number in the range of `0 - 65535`.
+    * In the unlikely event that the port is in use, use a different port number in the range of `0 - 65535`.
 3. The server is only capable of processing a single request at a time. If there are multiple concurrent requests, the server will process them in a FIFO manner.
 4. Exit the file transfer server by sending SIGINT `[Ctrl]+C`.
 
